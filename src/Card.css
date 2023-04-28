@@ -4,6 +4,13 @@
   color: white;
   padding: 16px;
   box-shadow: 5px 5px white;
+  transition: all ease-in 0.15s;
+  cursor: pointer;
+}
+
+.card:hover {
+  translate: -4px -4px;
+  box-shadow: 9px 9px white;
 }
 
 .card h2 {
