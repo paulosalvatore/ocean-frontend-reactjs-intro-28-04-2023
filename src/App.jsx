@@ -1,17 +1,12 @@
 import "./App.css";
-import "./Card.css";
+import Card from "./Card";
 
 function App() {
   return (
     <>
       <h1>Samsung Ocean</h1>
-      <div className="card">
-        <h2>Pikachu</h2>
-        <img
-          width="200"
-          src="https://sm.ign.com/ign_br/screenshot/default/025pikachu-os-anime-10_5z4v.png"
-        />
-      </div>
+      <Card />
+      <Card />
     </>
   );
 }
