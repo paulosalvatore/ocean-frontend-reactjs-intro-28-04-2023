@@ -1,3 +1,16 @@
 .card {
-  background: #ff0000;
+  border: 2px solid #f8f8f8;
+  border-radius: 16px;
+  color: white;
+  padding: 16px;
+  box-shadow: 5px 5px white;
+}
+
+.card h2 {
+  font-size: 32px;
+}
+
+.card img {
+  border-radius: 16px;
+  margin: 8px;
 }
