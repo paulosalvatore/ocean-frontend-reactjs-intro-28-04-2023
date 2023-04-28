@@ -13,12 +13,20 @@ const charmander = {
     "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-blue-version/d/d4/Charmander.gif",
 };
 
+const bulbasaur = {
+  nome: "Bulbasaur",
+  imagemUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+};
+
+const itens = [pikachu, charmander, bulbasaur];
+
 function App() {
   return (
     <>
       <h1>Samsung Ocean</h1>
-      <Card item={pikachu} />
-      <Card item={charmander} />
+      {itens.map(function (item) {
+        return <Card item={item} />;
+      })}
     </>
   );
 }
