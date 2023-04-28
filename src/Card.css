@@ -6,6 +6,7 @@
   box-shadow: 5px 5px white;
   transition: all ease-in 0.15s;
   cursor: pointer;
+  margin: 16px;
 }
 
 .card:hover {
