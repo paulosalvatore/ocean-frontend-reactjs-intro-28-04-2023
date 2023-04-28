@@ -1,10 +1,11 @@
 import "./App.css";
+import "./Card.css";
 
 function App() {
   return (
     <>
       <h1>Samsung Ocean</h1>
-      <div>
+      <div className="card">
         <h2>Pikachu</h2>
         <img
           width="200"
