@@ -1,13 +1,12 @@
 import "./Card.css";
 
-function Card() {
+function Card(props) {
+  const item = props.item;
+
   return (
     <div className="card">
-      <h2>Pikachu</h2>
-      <img
-        width="200"
-        src="https://sm.ign.com/ign_br/screenshot/default/025pikachu-os-anime-10_5z4v.png"
-      />
+      <h2>{item.nome}</h2>
+      <img width="200" src={item.imagemUrl} />
     </div>
   );
 }
