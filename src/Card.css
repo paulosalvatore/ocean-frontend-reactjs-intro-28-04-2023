@@ -7,6 +7,7 @@
   transition: all ease-in 0.15s;
   cursor: pointer;
   margin: 16px;
+  width: 300px;
 }
 
 .card:hover {

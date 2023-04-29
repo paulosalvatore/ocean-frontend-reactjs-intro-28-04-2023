@@ -24,9 +24,11 @@ function App() {
   return (
     <>
       <h1>Samsung Ocean</h1>
-      {itens.map(function (item, index) {
-        return <Card item={item} key={`card_${index}`} />;
-      })}
+      <div className="cards">
+        {itens.map(function (item, index) {
+          return <Card item={item} key={`card_${index}`} />;
+        })}
+      </div>
     </>
   );
 }
